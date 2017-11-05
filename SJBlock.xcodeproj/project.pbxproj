@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		183DF11D1FAEEA3400EB8D03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DF11C1FAEEA3400EB8D03 /* main.m */; };
+		183DF1251FAEEF2100EB8D03 /* SJBlockOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DF1241FAEEF2100EB8D03 /* SJBlockOne.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		183DF1191FAEEA3400EB8D03 /* SJBlock */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SJBlock; sourceTree = BUILT_PRODUCTS_DIR; };
 		183DF11C1FAEEA3400EB8D03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183DF1231FAEEF2100EB8D03 /* SJBlockOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJBlockOne.h; sourceTree = "<group>"; };
+		183DF1241FAEEF2100EB8D03 /* SJBlockOne.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJBlockOne.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				183DF11C1FAEEA3400EB8D03 /* main.m */,
+				183DF1231FAEEF2100EB8D03 /* SJBlockOne.h */,
+				183DF1241FAEEF2100EB8D03 /* SJBlockOne.m */,
 			);
 			path = SJBlock;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				183DF11D1FAEEA3400EB8D03 /* main.m in Sources */,
+				183DF1251FAEEF2100EB8D03 /* SJBlockOne.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

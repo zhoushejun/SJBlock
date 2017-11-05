@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SJBlockOne.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        SJBlockOne *blockOne = [[SJBlockOne alloc] init];
+        [blockOne blockFunc];
     }
     return 0;
 }
